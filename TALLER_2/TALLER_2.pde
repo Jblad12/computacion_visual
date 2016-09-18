@@ -93,11 +93,11 @@ void draw() {
     posYGrande = posY - (((y / 8) * 500) / y) / 2;
     
     //Se si da clic izquierdo, se aumenta el contador, para que el movimiento sea positivo
-    if (mousePressed && mouseButton == LEFT){
+    /*if (mousePressed && mouseButton == LEFT){
       rotacion++;
-    }
+    }*/
     //Se si da clic derecho, se reduce el contador, para que el movimiento sea negativo
-    if (mousePressed && mouseButton == RIGHT){
+    if (mousePressed && mouseButton == LEFT){
       rotacion--;
     }
     
